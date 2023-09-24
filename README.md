@@ -44,3 +44,25 @@ To make a second presentation, follow the same steps (e.g., you may now have **M
 ```
 
 I personally prefer the second option, but it is up to you. 
+
+## Instructions
+
+### Images
+
+**All** your images should be located in the *images* folder. 
+
+### Title slide
+
+The default option is to include a background image (*images/main_image.jpg*). Replace this image with some cool figure related to your presentation. 
+You can also change the opacity (`data-background-opacity` in the header in **template.qmd**). 
+If you want to have a white background, just remove these lines from the header in **template.qmd**:
+
+```
+title-slide-attributes:
+    data-background-image: "images/main_image.jpg"
+    data-background-size: cover
+    data-background-opacity: "0.3"
+```
+
+- Remember that the subtitle is optional, you can remove it from the header in **template.qmd**.
+- If you want to change the font color and size, you will need to do it in the **_extensions/azti/azti.scss** (see `#title-slide` section).
