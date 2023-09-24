@@ -22,14 +22,25 @@ You can clone it to have it on your computer.
 
 Once you have the code on your computer, you may want to use it to make your own presentation. There are two ways to do this:
 
-1. Start modifying the **template.qmd** file to make your own presentation. I suggest you change the name of the folder *AZTI-revealjs-template*.
-If you want to make a different presentation, you will need to copy and paste the entire folder and rename it. Then, modify the **template.qmd** again.
+1. Copy the entire folder (*AZTI-revealjs-template*) to a desired location on your computer and rename it (e.g., *MyFirstPresentation*).
+Start modifying the **template.qmd** file to make your own presentation. If you want to make a second presentation, you will need to follow the same steps.
+
+2. Copy the entire folder (*AZTI-revealjs-template*) to a desired location on your computer. Rename the folder if you want. 
+To make your first presentation, copy and paste the **template.qmd** file in the same folder, and then rename it (e.g., **MyFirstPresentation.qmd**). Start making your changes.
+To make a second presentation, follow the same steps (e.g., you may now have **MySecondPresentation.qmd**). Your folder would look like:
 
 ```bash
     ├── ...
-    ├── test                    
-    │   ├── benchmarks         
-    │   ├── integration        
-    │   └── unit               
+    ├── AZTI-revealjs-template                    
+    │   ├── _extensions   
+    │   ├── images 
+    │   ├── azti.svg
+    │   ├── images
+    │   ├── README.md
+    │   ├── template.qmd		
+    │   ├── MyFirstPresentation.qmd	
+    │   └── MySecondPresentation.qmd          
     └── ...
 ```
+
+I personally prefer the second option, but it is up to you. 
