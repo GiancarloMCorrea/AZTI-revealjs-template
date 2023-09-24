@@ -66,3 +66,11 @@ title-slide-attributes:
 
 - Remember that the subtitle is optional, you can remove it from the header in **template.qmd**.
 - If you want to change the font color and size, you will need to do it in the **_extensions/azti/azti.scss** (see `#title-slide` section).
+
+### Last slide
+
+There is no format for this slide. You can make your own design here using your Quarto skills. I personally like the black background and the white AZTI logo.
+
+## Suggestions
+
+Please, [contact me](mailto:gmoron@azti.es) if you have any suggestions or questions. My experience using Quarto and HTML is limited, but I will do my best to incorporate your comments. 
