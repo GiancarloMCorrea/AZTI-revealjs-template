@@ -27,41 +27,40 @@ $link-color-hover: #FCDA01;
   text-align: left;
 
 	.title-logo {
-		max-width: 33%; 
-		margin-top: -130px; 
-		margin-left: 33%;
-		position: relative;
+	  display: block;
+	  position: relative;
+	  width: 35%;
+	  height: auto;
+	}
+
+	.wrap {
+	  display: block;
+	  position: fixed;
+	  top: -140px;
+	  left: 150px;
+	  right: 0;
+	  margin: 0 auto;
+	  text-align: left;  
 	}
 
   .title {
 	font-size: 45px;
-	margin-left:34%;
-	margin-top: 0;
-	margin-bottom: 15px;
+	font-weight: bold;
 	color: #000000;
   }
   
   .subtitle {
 	font-size: 35px;
-	margin-left:34%;
-	margin-top: 0;
-	margin-bottom: 0;
 	color: #000000;
   }
   
   .author {
 	font-size: 25px;
-	margin-left:34%;
-	margin-top: 0;
-	margin-bottom: 15px;
 	color: #000000;
   }
   
   .institute {
 	font-size: 25px;
-	margin-left:34%;
-	margin-top: 0;
-	margin-bottom: 0;
 	font-style: italic;
 	color: #000000;
   }  

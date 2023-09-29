@@ -1,16 +1,21 @@
 
 <section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$>
 
-  <img class="title-logo" src="_extensions/azti/__AZTI_Pastilla_WebBlanco.png" />
+<div class="wrap">
 
-  <h1 class="title">$title$</h1>
+<img class="title-logo" src="_extensions/azti/__AZTI_Pastilla_WebBlanco.png" />
+
+  <span class="title">$title$</span>
 $if(subtitle)$
-  <p class="subtitle">$subtitle$</p>
+  <p><span class="subtitle">$subtitle$</span></p>
 $endif$
 $for(author)$
-  <p class="author">$author$</p>
+  <p><span class="author">$author$</span></p>
 $endfor$
 $for(institute)$
-  <p class="institute">$institute$</p>
+  <p><span class="institute">$institute$</span></p>
 $endfor$
+
+</div>
+
 </section>
