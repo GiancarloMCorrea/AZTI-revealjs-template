@@ -71,6 +71,18 @@ title-slide-attributes:
 
 There is no format for this slide. You can make your own design here using your Quarto skills. I personally like the black background and the white AZTI logo.
 
+## Add a laser pointer
+
+If you want to add a laser pointer for your presentation, you should install the [plugin extension](https://github.com/quarto-ext/pointer). You will need to copy the downloaded *pointer* folder 
+and paste it in the main Quarto folder (`Quarto/share/extensions/quarto/`), normally located here: `C:/Users/gmoron/AppData/Local/Programs`. 
+
+## Share your presentation
+
+There are several ways to do it, I like to do it by uploading the HTML to my website and then sharing the URL. 
+But if you do not have a website, the most simple is creating a PDF from the HTML file. Follow [these steps](https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf) to do so.
+
+When generating a PDF, its size might be too large. You can use [this tool](https://www.adobe.com/acrobat/online/compress-pdf.html) by Adobe to compress your PDF.
+
 ## Suggestions
 
 Please, [contact me](mailto:gmoron@azti.es) if you have any suggestions or questions. My experience using Quarto and HTML is limited, but I will do my best to incorporate your comments. 
