@@ -79,7 +79,7 @@ and paste it in the main Quarto folder (`Quarto/share/extensions/quarto/`), norm
 ## Share your presentation
 
 There are several ways to do it, I like to do it by uploading the HTML to my website and then sharing the URL. 
-But if you do not have a website, the most simple is creating a PDF from the HTML file. Follow [these steps](https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf) to do so.
+But if you do not have a website, the most simple way is creating a PDF from the HTML file. Follow [these steps](https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf) to do so.
 
 When generating a PDF, its size might be too large. You can use [this tool](https://www.adobe.com/acrobat/online/compress-pdf.html) by Adobe to compress your PDF.
 
