@@ -74,7 +74,7 @@ There is no format for this slide. You can make your own design here using your 
 ## Add a laser pointer
 
 If you want to add a laser pointer for your presentation, you should install the [plugin extension](https://github.com/quarto-ext/pointer). You will need to copy the downloaded *pointer* folder 
-and paste it in the main Quarto folder (`Quarto/share/extensions/quarto/`), normally located here: `C:/Users/gmoron/AppData/Local/Programs`. 
+and paste it in the main Quarto folder (`Quarto/share/extensions/quarto/`), normally located here: `C:/Users/your_user_name/AppData/Local/Programs`. 
 
 ## Share your presentation
 
