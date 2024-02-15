@@ -42,7 +42,7 @@ library(ggplot2)
 ggplot(mtcars, aes(wt, mpg)) + geom_point()
 ```
 
-# This is a new section {background-color='#FCDA01'}
+# This is a new section
 
 ## This is a slide with two columns
 
@@ -71,15 +71,16 @@ ggplot(mtcars, aes(wt, mpg)) + geom_point()
 
 With only text
 
-# Thank you {background-color='black'}
+## Thank you {background-color="black"}
+
+<br> <br>
+
+<center>
+
+![](images/__AZTI_secundario_BlancoAmarillo.png){width="50%"}
 
 <br>
-<br>
 
-![](images/__AZTI_secundario_BlancoAmarillo.png){fig-align="center" width="40%"}
+[Contact:]{style="font-size:40px"} <br> [myname\@azti.es](mailto:myname@azti.es){style="font-size:40px"}
 
-::: sectionhead
-[Contact:]{style="font-size:40px"} 
-<br> 
-[myemail\@azti.es](mailto:myemail@azti.es){style="font-size:40px"}
-:::
+</center>
